@@ -1,0 +1,98 @@
+#catalog
+{
+	position:absolute;
+	right:10px;
+	bottom:5px;
+	text-align:center;
+}
+
+#m_popup
+{
+	position:absolute;
+	bottom:0;
+	left:400px;	
+	text-align:center;
+	
+}
+
+.feedback{
+	position:absolute;
+	left:10px;
+	bottom:0;
+	font:'Kalinga';
+}
+
+.feedback p
+{
+	text-align:left;
+}
+
+.feedback a {
+	display:block;
+	height:30px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	background:transparent;
+	border-top:2px solid #fff;
+	border-left:2px solid #fff;	
+	border-right:2px solid #fff;	
+	padding:5px;
+	float:left;
+	cursor:pointer;
+	
+	/*Font*/
+	font-size:10pt;
+}
+
+.feedback a:hover
+{
+	background-color:#ff2800;
+	color:#fff;
+	border-color:#ff2800;
+}
+
+.feedback .form{
+	clear:both;
+	width:300px;
+	border:1px solid #000;
+	background:#fff;
+	padding:15px;
+	display: none;
+}
+
+.feedback #submit_form
+{
+	width: 100px;
+	height: 30px;
+	background: transparent;
+	color: #000;
+	font-size:10pt;
+	margin:0.5em 0;
+	border: 1px solid #000;
+	text-align:center;
+	padding:0.2em;
+}
+
+.feedback #submit_form:hover
+{
+	background-color:#ff2800;
+	color:#fff;
+	border-color:#ff2800;
+}
+
+.feedback .form textarea{
+	height:100px;
+	width:100%;
+	padding:5px;
+	font-size:8pt;
+	margin-top:10px;
+	background-color:#ff2800;
+	color:#fff;
+}
+
+.feedback .form input
+{
+	font-size:8pt;
+	color:#3f3f3f;
+}

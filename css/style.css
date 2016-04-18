@@ -1,0 +1,85 @@
+
+#row
+{width:300px;
+height:225px;
+position:relative;}
+
+#rowWrapper
+{width:900px;
+margin:0 auto;}
+
+#rowWrapperWithoutHeader
+{display:inline-block;
+margin:0 auto;}
+
+#moreButton
+{position:absolute;
+background-color:transparent;
+border-style:none;
+width:70px;
+height:70px;
+border-radius:75%;
+right:0;
+top:160px;}
+
+#moreButton:hover
+{  transform: rotate(135deg);
+  transition: transform 0.5s;}
+  
+#moreButton .glyphicon-plus-sign
+{font-size:40px;
+color:#BD1E00;}
+
+#followUsWrapper
+{width:900px;
+margin:0 auto;
+position:relative;}
+
+#facebook,#twitter,#google
+{width:150px;
+height:30px;
+padding:0.5em;
+float:left;
+font:'Kalinga';
+font-size:10pt;
+text-align:center;
+color:#fff;
+border:2px solid #fff;
+margin:2px 10px}
+
+#facebook:hover,#twitter:hover,#google:hover
+{background-color:#ff2800;
+color:#fff;
+border-color:#ff2800;
+cursor:pointer;}
+
+#socialMediaWrapper
+{width:520px;
+margin:0 auto;}
+
+#email
+{background-color:transparent;
+width:350px;
+font:'Kalinga';
+font-size:10pt;
+height:30px;
+border-style:none;
+color:#fff;}
+
+#mailingListButton
+{border-style:none;
+background-color:transparent;
+width:25px;
+margin-right:5px;
+margin-top:5px;}
+
+#followUsWrapper p
+{
+font:'Kalinga';
+font-size:10pt;
+text-align:center;
+}
+
+.glyphicon-envelope
+{color:#ff2800;
+font-size:20px;}
